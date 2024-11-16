@@ -24,3 +24,9 @@ OR
 - make file
 - route for that file
 - Q. what if i dont write .blade, will it run ? => Yes
+
+## MVC (Model-view-controller) || Folder Structure
+- MVC is software designe pattern to develope software
+- Model : Write bussiness logic, database communication
+- view: user interface(look and feel)
+- controller: Handle user interaction and select a view to render, communicate Model and view
