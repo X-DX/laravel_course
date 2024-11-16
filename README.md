@@ -60,3 +60,8 @@ OR
 - pass data from route to controller
 - call view with controller
 - call view which is under a nested folder (using .)
+
+## View
+- Create view
+- call view from route and controller
+- pass data in view
