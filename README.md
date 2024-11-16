@@ -65,3 +65,9 @@ OR
 - Create view
 - call view from route and controller
 - pass data in view
+
+## subview
+- include
+- create sub view
+- pass data from view to subview
+- check if sub view exits
