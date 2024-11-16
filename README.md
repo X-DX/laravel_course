@@ -16,3 +16,11 @@ OR
 # install the laravel installer
 - composer global require laravel/installer (run ince in the system untill you uninstall this from system)
 - laravel new app_name
+
+# run project
+- php artisan serve
+
+## Create file
+- make file
+- route for that file
+- Q. what if i dont write .blade, will it run ? => Yes
