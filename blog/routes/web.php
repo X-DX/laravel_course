@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -18,3 +19,5 @@ Route::get('/about/{name}', function ($name) {
     // echo $name;  we can write here also, or pass in view file
     return view('about', ['name' => $name]);
 });
+
+Route::get('/user', [UserController::class, 'getUser']);

@@ -54,4 +54,9 @@ OR
 - Redirect
 - Routing methods (get,post,put,patch,delete,options,etc)
 
-
+## Controller
+- create controller (php artisan make:controller Controller_name)
+- Call the controller with route
+- pass data from route to controller
+- call view with controller
+- call view which is under a nested folder (using .)
